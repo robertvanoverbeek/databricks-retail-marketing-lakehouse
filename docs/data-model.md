@@ -27,14 +27,17 @@ primary key - order_id
 | discount	  | decimal
 
 Products
-primary key: product_id
-| Column     | Type    |
-| ---------- | ------- |
-| product_id | string  |
-| category   | string  |
-| subcategory   | string  |
-| brand      | string  |
-| price      | decimal |
+Contains the product catalog.
+
+Primary key: `product_id`
+
+| Column        | Type    | Description                       |
+|---------------|---------|-----------------------------------|
+| product_id    | string  | Unique product identifier         |
+| category      | string  | Product category                  |
+| brand         | string  | Product brand                     |
+| product_name  | string  | Product name                      |
+| unit_price    | decimal | Product price                     |
 
 Marketing campaigns
 primary key: campaign_id

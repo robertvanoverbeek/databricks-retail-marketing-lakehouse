@@ -1,5 +1,8 @@
 number_of_customers: 100000
 
+
+output_file: data/generated/customers.csv
+
 countries:
   - Netherlands
   - Belgium
@@ -13,5 +16,3 @@ loyalty_tiers:
   - Silver
   - Gold
   - Platinum
-
-output_file: data/generated/customers.csv
