@@ -1,4 +1,6 @@
-pyspark
-pandas
-faker
-pyyaml
+faker==40.28.1
+numpy==2.5.1
+pandas==3.0.3
+python-dateutil==2.9.0.post0
+pyyaml==6.0.3
+six==1.17.0
