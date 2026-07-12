@@ -1,0 +1,18 @@
+number_of_customers: 10000
+
+countries:
+  - Netherlands
+  - Belgium
+  - Germany
+
+loyalty_tiers:
+  - Bronze
+  - Silver
+  - Gold
+  - Platinum
+
+marketing_opt_in_rate: 0.65
+
+seed: 42
+
+output_file: data/generated/customers.csv
