@@ -1,0 +1,81 @@
+number_of_products: 500
+
+output_file: data/generated/products.csv
+
+categories:
+  Electronics:
+    brands:
+      - Apple
+      - Samsung
+      - Sony
+      - Logitech
+
+    product_names:
+      - Wireless Mouse
+      - Mechanical Keyboard
+      - Bluetooth Speaker
+      - Gaming Headset
+      - Monitor
+      - Webcam
+      - USB-C Hub
+
+    price_range:
+      min: 25
+      max: 900
+
+  Home:
+    brands:
+      - Philips
+      - Bosch
+      - Tefal
+      - IKEA
+
+    product_names:
+      - Air Fryer
+      - Coffee Machine
+      - Vacuum Cleaner
+      - Blender
+      - Desk Lamp
+      - Dining Chair
+
+    price_range:
+      min: 20
+      max: 500
+
+  Sports:
+    brands:
+      - Nike
+      - Adidas
+      - Puma
+      - Asics
+
+    product_names:
+      - Running Shoes
+      - Sports T-Shirt
+      - Football
+      - Yoga Mat
+      - Water Bottle
+      - Sports Bag
+
+    price_range:
+      min: 15
+      max: 250
+
+  Fashion:
+    brands:
+      - Levi's
+      - Tommy Hilfiger
+      - Calvin Klein
+      - Zara
+
+    product_names:
+      - Jeans
+      - Hoodie
+      - Polo Shirt
+      - Jacket
+      - Sneakers
+      - Belt
+
+    price_range:
+      min: 20
+      max: 300

@@ -28,7 +28,6 @@ def generate_customer(config: dict[str, Any]) -> dict[str, Any]:
     Generate a single customer.
     """
     return {
-        "customer_id": fake.uuid4(),
         "first_name": fake.first_name(),
         "last_name": fake.last_name(),
         "email": fake.email(),
@@ -53,8 +52,12 @@ def generate_customers(
 
     customers = []
 
-    for _ in range(config["number_of_customers"]):
-        customers.append(generate_customer(config))
+    for i in range(1, config["number_of_customers"]):
+        customer = generate_customer(config)
+
+        customer["customer_id"] = f"C{i:06d}"
+
+        customers.append(customer)
 
     return customers
 
@@ -82,6 +85,8 @@ def main() -> None:
     customers = generate_customers(config)
 
     print(f"Generated {len(customers)} customers\n")
+
+
 
   #  for customer in customers:
  #       print(customer)

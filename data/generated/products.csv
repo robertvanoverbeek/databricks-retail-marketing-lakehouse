@@ -1,0 +1,501 @@
+category,brand,product_name,unit_price,product_id
+Home,Tefal,Dining Chair,295.76,P000001
+Fashion,Zara,Polo Shirt,272.56,P000002
+Electronics,Apple,Monitor,694.52,P000003
+Sports,Asics,Running Shoes,157.93,P000004
+Electronics,Logitech,Gaming Headset,685.83,P000005
+Home,Bosch,Dining Chair,187.93,P000006
+Electronics,Sony,Wireless Mouse,843.85,P000007
+Home,Philips,Desk Lamp,337.01,P000008
+Home,Philips,Vacuum Cleaner,20.7,P000009
+Fashion,Tommy Hilfiger,Belt,54.27,P000010
+Fashion,Calvin Klein,Jacket,270.84,P000011
+Electronics,Apple,Wireless Mouse,557.86,P000012
+Electronics,Sony,Monitor,808.35,P000013
+Electronics,Samsung,Monitor,405.84,P000014
+Fashion,Tommy Hilfiger,Jeans,136.78,P000015
+Fashion,Tommy Hilfiger,Polo Shirt,70.4,P000016
+Home,Philips,Air Fryer,278.48,P000017
+Sports,Nike,Yoga Mat,94.73,P000018
+Sports,Nike,Sports T-Shirt,136.7,P000019
+Sports,Asics,Sports T-Shirt,162.46,P000020
+Fashion,Levi's,Belt,61.16,P000021
+Home,Bosch,Blender,212.66,P000022
+Electronics,Sony,Gaming Headset,292.92,P000023
+Home,Tefal,Blender,204.56,P000024
+Electronics,Apple,USB-C Hub,458.68,P000025
+Home,IKEA,Desk Lamp,485.2,P000026
+Fashion,Calvin Klein,Sneakers,249.5,P000027
+Sports,Puma,Yoga Mat,134.62,P000028
+Home,Philips,Coffee Machine,21.85,P000029
+Home,IKEA,Vacuum Cleaner,119.58,P000030
+Fashion,Zara,Jeans,138.4,P000031
+Electronics,Apple,USB-C Hub,268.01,P000032
+Home,Bosch,Blender,171.34,P000033
+Fashion,Calvin Klein,Jacket,296.86,P000034
+Electronics,Samsung,Mechanical Keyboard,101.86,P000035
+Home,IKEA,Dining Chair,352.62,P000036
+Home,Tefal,Air Fryer,67.87,P000037
+Home,IKEA,Blender,419.78,P000038
+Home,IKEA,Coffee Machine,339.38,P000039
+Home,Tefal,Desk Lamp,92.09,P000040
+Electronics,Samsung,Mechanical Keyboard,855.35,P000041
+Sports,Adidas,Sports Bag,42.22,P000042
+Electronics,Sony,Mechanical Keyboard,118.94,P000043
+Electronics,Apple,USB-C Hub,396.87,P000044
+Electronics,Apple,Mechanical Keyboard,290.75,P000045
+Fashion,Calvin Klein,Hoodie,173.3,P000046
+Fashion,Tommy Hilfiger,Jacket,109.73,P000047
+Electronics,Apple,Wireless Mouse,768.82,P000048
+Electronics,Apple,Bluetooth Speaker,273.64,P000049
+Fashion,Tommy Hilfiger,Sneakers,251.43,P000050
+Sports,Nike,Yoga Mat,106.41,P000051
+Home,Philips,Vacuum Cleaner,90.97,P000052
+Electronics,Sony,Webcam,404.08,P000053
+Fashion,Tommy Hilfiger,Belt,157.6,P000054
+Fashion,Calvin Klein,Polo Shirt,71.22,P000055
+Sports,Asics,Running Shoes,238.02,P000056
+Home,Bosch,Desk Lamp,498.02,P000057
+Fashion,Calvin Klein,Hoodie,180.21,P000058
+Home,Tefal,Vacuum Cleaner,163.91,P000059
+Fashion,Levi's,Hoodie,276.76,P000060
+Electronics,Samsung,Mechanical Keyboard,106.31,P000061
+Electronics,Sony,Bluetooth Speaker,143.4,P000062
+Fashion,Calvin Klein,Hoodie,94.95,P000063
+Home,IKEA,Coffee Machine,51.47,P000064
+Home,Philips,Air Fryer,216.87,P000065
+Fashion,Calvin Klein,Hoodie,202.96,P000066
+Fashion,Levi's,Hoodie,290.86,P000067
+Home,Tefal,Vacuum Cleaner,277.43,P000068
+Electronics,Logitech,Monitor,200.27,P000069
+Fashion,Calvin Klein,Jeans,157.81,P000070
+Sports,Adidas,Football,193.73,P000071
+Sports,Adidas,Sports T-Shirt,234.93,P000072
+Home,Bosch,Air Fryer,478.37,P000073
+Fashion,Tommy Hilfiger,Polo Shirt,135.95,P000074
+Home,Bosch,Blender,344.69,P000075
+Sports,Nike,Water Bottle,228.24,P000076
+Electronics,Samsung,Bluetooth Speaker,451.17,P000077
+Electronics,Apple,Bluetooth Speaker,780.4,P000078
+Fashion,Calvin Klein,Hoodie,105.07,P000079
+Electronics,Apple,Gaming Headset,212.38,P000080
+Electronics,Apple,Monitor,585.82,P000081
+Sports,Nike,Sports Bag,221.74,P000082
+Electronics,Samsung,Webcam,200.97,P000083
+Fashion,Tommy Hilfiger,Jacket,299.03,P000084
+Sports,Adidas,Water Bottle,241.37,P000085
+Fashion,Zara,Hoodie,199.98,P000086
+Fashion,Tommy Hilfiger,Sneakers,207.62,P000087
+Home,IKEA,Coffee Machine,129.35,P000088
+Sports,Adidas,Sports T-Shirt,38.62,P000089
+Electronics,Sony,Monitor,272.29,P000090
+Fashion,Calvin Klein,Hoodie,252.45,P000091
+Electronics,Logitech,Wireless Mouse,378.35,P000092
+Fashion,Zara,Jeans,182.08,P000093
+Sports,Puma,Sports Bag,210.14,P000094
+Home,IKEA,Dining Chair,368.49,P000095
+Sports,Asics,Running Shoes,16.29,P000096
+Fashion,Zara,Belt,68.66,P000097
+Home,Bosch,Blender,431.07,P000098
+Electronics,Samsung,Mechanical Keyboard,666.15,P000099
+Fashion,Levi's,Jacket,158.92,P000100
+Home,Tefal,Vacuum Cleaner,492.82,P000101
+Electronics,Samsung,Bluetooth Speaker,171.77,P000102
+Home,Bosch,Coffee Machine,417.82,P000103
+Electronics,Logitech,Mechanical Keyboard,801.36,P000104
+Electronics,Sony,Monitor,55.33,P000105
+Fashion,Tommy Hilfiger,Jeans,161.51,P000106
+Home,Philips,Dining Chair,477.15,P000107
+Electronics,Samsung,Wireless Mouse,614.96,P000108
+Home,Tefal,Air Fryer,111.76,P000109
+Home,Tefal,Vacuum Cleaner,59.62,P000110
+Electronics,Samsung,Bluetooth Speaker,414.39,P000111
+Fashion,Tommy Hilfiger,Hoodie,167.22,P000112
+Electronics,Logitech,Mechanical Keyboard,27.09,P000113
+Electronics,Sony,Mechanical Keyboard,283.59,P000114
+Home,Tefal,Dining Chair,334.92,P000115
+Fashion,Levi's,Jacket,143.48,P000116
+Sports,Nike,Running Shoes,172.05,P000117
+Home,IKEA,Blender,20.9,P000118
+Fashion,Zara,Sneakers,116.86,P000119
+Home,Tefal,Coffee Machine,293.79,P000120
+Home,Philips,Vacuum Cleaner,52.81,P000121
+Sports,Asics,Sports Bag,200.44,P000122
+Home,Bosch,Dining Chair,122.76,P000123
+Home,Tefal,Coffee Machine,200.65,P000124
+Fashion,Zara,Jeans,156.69,P000125
+Home,Philips,Air Fryer,39.38,P000126
+Electronics,Apple,Wireless Mouse,560.42,P000127
+Fashion,Levi's,Belt,296.89,P000128
+Home,Bosch,Blender,378.09,P000129
+Sports,Nike,Sports Bag,224.68,P000130
+Fashion,Zara,Sneakers,210.43,P000131
+Fashion,Calvin Klein,Jeans,225.41,P000132
+Electronics,Logitech,Mechanical Keyboard,448.37,P000133
+Electronics,Sony,Bluetooth Speaker,838.05,P000134
+Electronics,Logitech,USB-C Hub,837.86,P000135
+Home,IKEA,Blender,66.76,P000136
+Electronics,Logitech,USB-C Hub,473.02,P000137
+Sports,Asics,Water Bottle,26.48,P000138
+Sports,Adidas,Running Shoes,199.4,P000139
+Home,IKEA,Blender,484.25,P000140
+Home,Philips,Desk Lamp,353.49,P000141
+Home,Philips,Dining Chair,145.09,P000142
+Electronics,Samsung,Gaming Headset,562.88,P000143
+Electronics,Logitech,Monitor,56.45,P000144
+Sports,Puma,Sports T-Shirt,191.73,P000145
+Sports,Nike,Running Shoes,59.93,P000146
+Fashion,Calvin Klein,Jeans,243.59,P000147
+Sports,Puma,Sports Bag,176.44,P000148
+Electronics,Sony,Monitor,730.35,P000149
+Fashion,Calvin Klein,Jeans,183.67,P000150
+Sports,Asics,Football,139.77,P000151
+Home,Philips,Desk Lamp,109.27,P000152
+Electronics,Logitech,Bluetooth Speaker,134.61,P000153
+Sports,Adidas,Running Shoes,196.97,P000154
+Home,Tefal,Air Fryer,28.87,P000155
+Electronics,Apple,Gaming Headset,154.0,P000156
+Fashion,Levi's,Jacket,169.75,P000157
+Home,IKEA,Desk Lamp,447.65,P000158
+Home,IKEA,Vacuum Cleaner,297.83,P000159
+Home,Philips,Blender,409.59,P000160
+Fashion,Zara,Jeans,293.7,P000161
+Electronics,Logitech,Webcam,783.97,P000162
+Sports,Asics,Football,221.57,P000163
+Electronics,Logitech,USB-C Hub,74.23,P000164
+Fashion,Calvin Klein,Jacket,35.83,P000165
+Sports,Asics,Running Shoes,151.26,P000166
+Electronics,Apple,Gaming Headset,62.72,P000167
+Home,Philips,Coffee Machine,201.36,P000168
+Electronics,Logitech,Bluetooth Speaker,432.55,P000169
+Fashion,Calvin Klein,Jeans,111.92,P000170
+Electronics,Sony,Gaming Headset,808.81,P000171
+Home,Tefal,Dining Chair,67.69,P000172
+Fashion,Tommy Hilfiger,Belt,235.78,P000173
+Sports,Adidas,Sports Bag,130.91,P000174
+Home,Tefal,Dining Chair,498.03,P000175
+Electronics,Sony,Wireless Mouse,748.44,P000176
+Electronics,Logitech,Gaming Headset,423.77,P000177
+Fashion,Tommy Hilfiger,Hoodie,29.0,P000178
+Fashion,Levi's,Belt,36.08,P000179
+Sports,Adidas,Sports T-Shirt,167.4,P000180
+Electronics,Apple,Gaming Headset,78.18,P000181
+Home,Tefal,Air Fryer,207.77,P000182
+Electronics,Apple,Webcam,881.98,P000183
+Fashion,Levi's,Belt,136.0,P000184
+Electronics,Sony,Monitor,374.9,P000185
+Home,Tefal,Blender,396.34,P000186
+Electronics,Logitech,Webcam,668.34,P000187
+Electronics,Apple,Monitor,615.91,P000188
+Electronics,Logitech,Bluetooth Speaker,780.07,P000189
+Home,Bosch,Coffee Machine,484.45,P000190
+Sports,Adidas,Sports Bag,167.06,P000191
+Home,Bosch,Blender,200.57,P000192
+Sports,Puma,Yoga Mat,93.93,P000193
+Home,Philips,Dining Chair,290.83,P000194
+Home,Bosch,Dining Chair,261.33,P000195
+Home,Philips,Coffee Machine,147.52,P000196
+Home,Philips,Dining Chair,121.97,P000197
+Electronics,Sony,Bluetooth Speaker,124.46,P000198
+Sports,Adidas,Water Bottle,247.5,P000199
+Sports,Adidas,Yoga Mat,221.34,P000200
+Sports,Adidas,Football,63.58,P000201
+Fashion,Tommy Hilfiger,Belt,95.02,P000202
+Home,Tefal,Desk Lamp,389.06,P000203
+Fashion,Levi's,Jeans,207.07,P000204
+Fashion,Levi's,Jeans,197.38,P000205
+Electronics,Sony,Bluetooth Speaker,41.92,P000206
+Electronics,Samsung,Monitor,568.32,P000207
+Fashion,Tommy Hilfiger,Jacket,84.18,P000208
+Sports,Asics,Sports T-Shirt,74.79,P000209
+Fashion,Zara,Belt,216.36,P000210
+Fashion,Calvin Klein,Sneakers,146.2,P000211
+Fashion,Calvin Klein,Sneakers,280.16,P000212
+Fashion,Levi's,Hoodie,170.91,P000213
+Home,Tefal,Blender,72.58,P000214
+Sports,Nike,Running Shoes,134.86,P000215
+Electronics,Sony,Monitor,540.79,P000216
+Fashion,Calvin Klein,Jeans,290.29,P000217
+Home,Tefal,Blender,57.64,P000218
+Electronics,Samsung,USB-C Hub,383.9,P000219
+Home,IKEA,Vacuum Cleaner,303.67,P000220
+Fashion,Levi's,Polo Shirt,163.62,P000221
+Sports,Nike,Water Bottle,79.72,P000222
+Fashion,Tommy Hilfiger,Polo Shirt,198.94,P000223
+Home,Tefal,Air Fryer,79.86,P000224
+Sports,Adidas,Yoga Mat,125.66,P000225
+Home,Bosch,Vacuum Cleaner,221.41,P000226
+Sports,Nike,Water Bottle,210.44,P000227
+Electronics,Samsung,Bluetooth Speaker,292.32,P000228
+Fashion,Levi's,Polo Shirt,115.41,P000229
+Fashion,Calvin Klein,Belt,273.85,P000230
+Electronics,Samsung,USB-C Hub,372.36,P000231
+Electronics,Sony,Wireless Mouse,572.25,P000232
+Home,Bosch,Desk Lamp,160.95,P000233
+Electronics,Sony,Gaming Headset,832.8,P000234
+Sports,Puma,Football,167.88,P000235
+Sports,Puma,Yoga Mat,32.4,P000236
+Fashion,Zara,Jacket,227.97,P000237
+Sports,Nike,Football,35.24,P000238
+Electronics,Logitech,Wireless Mouse,820.42,P000239
+Home,IKEA,Blender,76.02,P000240
+Electronics,Logitech,Gaming Headset,160.48,P000241
+Home,Tefal,Vacuum Cleaner,154.2,P000242
+Home,Bosch,Dining Chair,152.6,P000243
+Home,Tefal,Blender,259.67,P000244
+Electronics,Logitech,Mechanical Keyboard,760.65,P000245
+Sports,Adidas,Sports Bag,165.92,P000246
+Fashion,Levi's,Jacket,118.26,P000247
+Home,Bosch,Dining Chair,292.94,P000248
+Home,Bosch,Coffee Machine,409.83,P000249
+Sports,Adidas,Sports Bag,98.77,P000250
+Home,Philips,Desk Lamp,22.03,P000251
+Sports,Asics,Yoga Mat,35.37,P000252
+Sports,Nike,Sports Bag,240.75,P000253
+Fashion,Tommy Hilfiger,Jeans,91.42,P000254
+Fashion,Tommy Hilfiger,Hoodie,67.62,P000255
+Home,Philips,Coffee Machine,369.32,P000256
+Fashion,Zara,Jacket,266.66,P000257
+Sports,Nike,Football,111.42,P000258
+Sports,Puma,Sports T-Shirt,68.69,P000259
+Sports,Nike,Sports T-Shirt,240.98,P000260
+Sports,Asics,Sports T-Shirt,52.87,P000261
+Home,Tefal,Dining Chair,148.1,P000262
+Sports,Puma,Sports Bag,227.31,P000263
+Fashion,Calvin Klein,Jacket,25.1,P000264
+Electronics,Apple,Webcam,415.0,P000265
+Electronics,Samsung,Monitor,91.91,P000266
+Electronics,Sony,Gaming Headset,750.92,P000267
+Sports,Nike,Football,126.06,P000268
+Sports,Puma,Sports Bag,65.77,P000269
+Home,Bosch,Blender,175.71,P000270
+Electronics,Samsung,Bluetooth Speaker,693.09,P000271
+Electronics,Samsung,Bluetooth Speaker,289.89,P000272
+Electronics,Apple,Gaming Headset,872.81,P000273
+Home,IKEA,Coffee Machine,479.05,P000274
+Home,Philips,Dining Chair,194.89,P000275
+Sports,Puma,Yoga Mat,23.29,P000276
+Electronics,Sony,USB-C Hub,510.84,P000277
+Sports,Puma,Running Shoes,138.94,P000278
+Home,Tefal,Blender,282.29,P000279
+Sports,Puma,Yoga Mat,167.53,P000280
+Home,Tefal,Coffee Machine,152.85,P000281
+Fashion,Calvin Klein,Jeans,206.16,P000282
+Sports,Nike,Yoga Mat,40.95,P000283
+Sports,Nike,Water Bottle,235.89,P000284
+Home,Tefal,Air Fryer,196.62,P000285
+Fashion,Zara,Belt,269.0,P000286
+Electronics,Apple,Monitor,443.35,P000287
+Electronics,Samsung,Wireless Mouse,792.18,P000288
+Fashion,Zara,Jeans,221.53,P000289
+Fashion,Calvin Klein,Sneakers,219.0,P000290
+Fashion,Tommy Hilfiger,Hoodie,253.44,P000291
+Sports,Puma,Sports Bag,151.22,P000292
+Electronics,Sony,Wireless Mouse,517.92,P000293
+Home,Philips,Air Fryer,241.99,P000294
+Home,Philips,Dining Chair,42.95,P000295
+Electronics,Apple,Monitor,277.14,P000296
+Sports,Puma,Running Shoes,204.53,P000297
+Home,IKEA,Blender,115.28,P000298
+Electronics,Logitech,Mechanical Keyboard,667.9,P000299
+Fashion,Levi's,Jacket,209.08,P000300
+Electronics,Logitech,Wireless Mouse,445.16,P000301
+Sports,Adidas,Sports T-Shirt,68.37,P000302
+Home,Tefal,Air Fryer,203.92,P000303
+Sports,Nike,Yoga Mat,82.52,P000304
+Sports,Adidas,Sports T-Shirt,226.7,P000305
+Sports,Puma,Sports T-Shirt,123.39,P000306
+Home,IKEA,Desk Lamp,254.53,P000307
+Sports,Adidas,Sports Bag,48.82,P000308
+Fashion,Calvin Klein,Jeans,38.38,P000309
+Electronics,Apple,Webcam,726.25,P000310
+Electronics,Sony,Mechanical Keyboard,449.96,P000311
+Electronics,Samsung,Mechanical Keyboard,647.71,P000312
+Fashion,Zara,Jacket,93.23,P000313
+Sports,Nike,Sports T-Shirt,240.85,P000314
+Fashion,Tommy Hilfiger,Hoodie,86.17,P000315
+Electronics,Samsung,Wireless Mouse,104.36,P000316
+Home,Bosch,Desk Lamp,127.96,P000317
+Fashion,Levi's,Belt,297.19,P000318
+Electronics,Apple,Webcam,229.26,P000319
+Fashion,Levi's,Jacket,189.96,P000320
+Sports,Puma,Water Bottle,74.16,P000321
+Sports,Adidas,Yoga Mat,112.04,P000322
+Fashion,Tommy Hilfiger,Belt,217.24,P000323
+Sports,Adidas,Sports T-Shirt,206.48,P000324
+Home,IKEA,Air Fryer,358.58,P000325
+Fashion,Tommy Hilfiger,Jacket,91.32,P000326
+Fashion,Zara,Sneakers,265.39,P000327
+Electronics,Sony,Webcam,163.49,P000328
+Fashion,Calvin Klein,Jeans,156.22,P000329
+Home,IKEA,Blender,317.83,P000330
+Electronics,Logitech,Mechanical Keyboard,44.57,P000331
+Fashion,Calvin Klein,Sneakers,20.5,P000332
+Fashion,Levi's,Polo Shirt,70.82,P000333
+Electronics,Samsung,Webcam,250.21,P000334
+Home,Bosch,Vacuum Cleaner,143.64,P000335
+Home,Bosch,Desk Lamp,122.72,P000336
+Sports,Nike,Sports T-Shirt,238.77,P000337
+Home,IKEA,Vacuum Cleaner,64.37,P000338
+Sports,Puma,Sports T-Shirt,155.74,P000339
+Sports,Nike,Football,117.95,P000340
+Fashion,Calvin Klein,Sneakers,46.13,P000341
+Fashion,Zara,Belt,238.14,P000342
+Home,IKEA,Blender,210.07,P000343
+Home,Tefal,Dining Chair,392.43,P000344
+Electronics,Logitech,Gaming Headset,235.31,P000345
+Electronics,Sony,Monitor,759.11,P000346
+Sports,Adidas,Sports Bag,189.06,P000347
+Electronics,Apple,USB-C Hub,507.03,P000348
+Home,Philips,Blender,408.66,P000349
+Electronics,Apple,Bluetooth Speaker,839.37,P000350
+Fashion,Zara,Hoodie,259.86,P000351
+Fashion,Tommy Hilfiger,Sneakers,70.87,P000352
+Home,IKEA,Coffee Machine,437.27,P000353
+Sports,Adidas,Sports T-Shirt,190.01,P000354
+Sports,Asics,Sports Bag,15.81,P000355
+Fashion,Calvin Klein,Jeans,258.28,P000356
+Home,Philips,Dining Chair,326.76,P000357
+Home,Bosch,Blender,310.81,P000358
+Home,Tefal,Vacuum Cleaner,71.98,P000359
+Fashion,Zara,Jeans,119.97,P000360
+Electronics,Logitech,Wireless Mouse,337.67,P000361
+Home,IKEA,Blender,279.2,P000362
+Electronics,Sony,Wireless Mouse,384.8,P000363
+Electronics,Logitech,Gaming Headset,858.13,P000364
+Home,Philips,Desk Lamp,428.75,P000365
+Fashion,Zara,Hoodie,181.72,P000366
+Fashion,Levi's,Polo Shirt,171.3,P000367
+Sports,Adidas,Sports T-Shirt,180.79,P000368
+Home,IKEA,Coffee Machine,481.91,P000369
+Sports,Asics,Sports Bag,99.18,P000370
+Sports,Asics,Sports Bag,215.75,P000371
+Home,Philips,Vacuum Cleaner,166.32,P000372
+Electronics,Sony,Bluetooth Speaker,357.8,P000373
+Fashion,Tommy Hilfiger,Jacket,209.54,P000374
+Sports,Asics,Yoga Mat,94.56,P000375
+Sports,Asics,Yoga Mat,241.8,P000376
+Fashion,Levi's,Hoodie,28.49,P000377
+Sports,Nike,Football,239.28,P000378
+Electronics,Apple,Mechanical Keyboard,681.1,P000379
+Electronics,Samsung,Mechanical Keyboard,109.12,P000380
+Electronics,Sony,Webcam,141.87,P000381
+Fashion,Zara,Jeans,145.13,P000382
+Electronics,Samsung,Monitor,278.52,P000383
+Sports,Asics,Water Bottle,42.27,P000384
+Sports,Nike,Sports Bag,105.13,P000385
+Fashion,Levi's,Belt,70.84,P000386
+Fashion,Tommy Hilfiger,Sneakers,197.62,P000387
+Electronics,Sony,Gaming Headset,325.35,P000388
+Fashion,Tommy Hilfiger,Jacket,20.96,P000389
+Sports,Adidas,Water Bottle,157.82,P000390
+Sports,Asics,Yoga Mat,26.6,P000391
+Fashion,Zara,Jacket,275.13,P000392
+Home,IKEA,Coffee Machine,454.52,P000393
+Fashion,Levi's,Polo Shirt,241.84,P000394
+Fashion,Tommy Hilfiger,Jeans,264.75,P000395
+Home,IKEA,Dining Chair,86.79,P000396
+Fashion,Levi's,Belt,238.49,P000397
+Electronics,Logitech,USB-C Hub,666.07,P000398
+Sports,Nike,Sports T-Shirt,43.31,P000399
+Electronics,Logitech,Webcam,809.81,P000400
+Home,Philips,Dining Chair,370.03,P000401
+Sports,Nike,Yoga Mat,127.25,P000402
+Electronics,Logitech,Bluetooth Speaker,269.48,P000403
+Fashion,Tommy Hilfiger,Belt,34.38,P000404
+Electronics,Sony,Mechanical Keyboard,570.95,P000405
+Fashion,Calvin Klein,Belt,120.89,P000406
+Sports,Adidas,Yoga Mat,197.76,P000407
+Fashion,Tommy Hilfiger,Sneakers,274.39,P000408
+Electronics,Samsung,Gaming Headset,273.58,P000409
+Home,Tefal,Dining Chair,119.41,P000410
+Sports,Adidas,Yoga Mat,70.22,P000411
+Sports,Asics,Football,48.68,P000412
+Fashion,Calvin Klein,Jeans,156.31,P000413
+Home,IKEA,Coffee Machine,186.96,P000414
+Fashion,Tommy Hilfiger,Jacket,222.23,P000415
+Sports,Asics,Yoga Mat,35.82,P000416
+Fashion,Zara,Belt,109.3,P000417
+Home,IKEA,Blender,354.15,P000418
+Fashion,Tommy Hilfiger,Hoodie,240.3,P000419
+Fashion,Levi's,Belt,272.9,P000420
+Fashion,Tommy Hilfiger,Sneakers,106.2,P000421
+Electronics,Logitech,Wireless Mouse,435.35,P000422
+Electronics,Samsung,Mechanical Keyboard,822.26,P000423
+Home,Bosch,Air Fryer,50.76,P000424
+Sports,Adidas,Water Bottle,141.13,P000425
+Electronics,Samsung,Gaming Headset,767.31,P000426
+Electronics,Sony,Mechanical Keyboard,525.7,P000427
+Electronics,Apple,Monitor,604.04,P000428
+Sports,Puma,Sports Bag,29.23,P000429
+Home,Philips,Desk Lamp,322.69,P000430
+Electronics,Logitech,Bluetooth Speaker,435.79,P000431
+Home,Tefal,Air Fryer,252.2,P000432
+Electronics,Samsung,Gaming Headset,327.27,P000433
+Fashion,Zara,Polo Shirt,178.01,P000434
+Sports,Adidas,Football,203.71,P000435
+Electronics,Apple,Wireless Mouse,118.7,P000436
+Sports,Nike,Sports T-Shirt,24.86,P000437
+Fashion,Tommy Hilfiger,Hoodie,131.58,P000438
+Electronics,Apple,USB-C Hub,533.95,P000439
+Electronics,Logitech,Monitor,482.5,P000440
+Sports,Puma,Running Shoes,57.77,P000441
+Electronics,Samsung,Bluetooth Speaker,90.63,P000442
+Home,Bosch,Air Fryer,466.38,P000443
+Sports,Puma,Running Shoes,132.3,P000444
+Fashion,Calvin Klein,Hoodie,208.78,P000445
+Electronics,Samsung,Gaming Headset,84.91,P000446
+Fashion,Levi's,Jacket,39.23,P000447
+Fashion,Zara,Jacket,92.59,P000448
+Home,IKEA,Coffee Machine,350.76,P000449
+Home,Tefal,Vacuum Cleaner,190.88,P000450
+Home,Bosch,Air Fryer,73.18,P000451
+Sports,Nike,Sports Bag,233.88,P000452
+Sports,Adidas,Running Shoes,229.03,P000453
+Sports,Asics,Sports Bag,129.66,P000454
+Sports,Nike,Football,50.75,P000455
+Home,Tefal,Dining Chair,199.91,P000456
+Sports,Nike,Sports T-Shirt,82.17,P000457
+Sports,Nike,Yoga Mat,222.66,P000458
+Sports,Adidas,Yoga Mat,16.6,P000459
+Electronics,Sony,Webcam,34.03,P000460
+Sports,Adidas,Yoga Mat,131.69,P000461
+Home,Tefal,Air Fryer,290.05,P000462
+Sports,Puma,Running Shoes,168.67,P000463
+Fashion,Zara,Hoodie,266.56,P000464
+Home,Philips,Air Fryer,446.21,P000465
+Fashion,Zara,Polo Shirt,249.95,P000466
+Home,Tefal,Air Fryer,64.85,P000467
+Home,Bosch,Desk Lamp,177.83,P000468
+Home,IKEA,Dining Chair,417.78,P000469
+Fashion,Calvin Klein,Jeans,21.38,P000470
+Electronics,Logitech,Mechanical Keyboard,69.24,P000471
+Sports,Puma,Football,161.25,P000472
+Fashion,Tommy Hilfiger,Hoodie,122.68,P000473
+Home,Tefal,Blender,466.34,P000474
+Fashion,Zara,Hoodie,55.05,P000475
+Fashion,Levi's,Hoodie,203.92,P000476
+Fashion,Levi's,Hoodie,103.53,P000477
+Fashion,Calvin Klein,Jeans,203.1,P000478
+Sports,Nike,Running Shoes,240.86,P000479
+Fashion,Zara,Polo Shirt,146.49,P000480
+Sports,Nike,Sports T-Shirt,186.63,P000481
+Electronics,Samsung,Webcam,85.9,P000482
+Fashion,Zara,Sneakers,267.28,P000483
+Electronics,Samsung,USB-C Hub,159.44,P000484
+Home,Philips,Blender,387.88,P000485
+Sports,Adidas,Running Shoes,170.93,P000486
+Fashion,Tommy Hilfiger,Belt,266.84,P000487
+Electronics,Apple,Wireless Mouse,195.21,P000488
+Sports,Adidas,Water Bottle,109.03,P000489
+Sports,Nike,Football,245.99,P000490
+Home,Bosch,Coffee Machine,459.31,P000491
+Fashion,Tommy Hilfiger,Jeans,216.41,P000492
+Electronics,Logitech,Bluetooth Speaker,523.74,P000493
+Electronics,Samsung,Monitor,826.88,P000494
+Electronics,Samsung,Wireless Mouse,226.43,P000495
+Home,IKEA,Vacuum Cleaner,363.34,P000496
+Fashion,Zara,Hoodie,190.77,P000497
+Sports,Nike,Sports T-Shirt,78.47,P000498
+Sports,Puma,Sports T-Shirt,154.58,P000499
+Electronics,Samsung,Mechanical Keyboard,466.64,P000500
