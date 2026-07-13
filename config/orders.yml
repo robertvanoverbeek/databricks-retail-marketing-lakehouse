@@ -1,0 +1,7 @@
+number_of_orders: 100000
+
+input:
+  customers: data/generated/customers.csv
+  products: data/generated/products.csv
+
+output_file: data/generated/orders.csv
