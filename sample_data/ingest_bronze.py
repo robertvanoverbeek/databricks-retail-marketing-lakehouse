@@ -89,4 +89,51 @@ customers_bronze_df.show(5)
 
 # COMMAND ----------
 
+print(destination)
+print(type(destination))
+print(type(str(destination)))
 
+# COMMAND ----------
+
+customers_bronze_df.printSchema()
+
+# COMMAND ----------
+
+from pyspark.sql import functions as F
+
+customers_bronze_df = (
+    customers_bronze_df
+    .select(
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email",
+        "country",
+        "registration_date",
+        "marketing_opt_in",
+        "loyalty_tier",
+    )
+    .withColumn("_ingested_at", F.current_timestamp())
+)
+
+# COMMAND ----------
+
+customers_bronze_df.show(5, truncate=False)
+customers_bronze_df.printSchema()
+
+# COMMAND ----------
+
+customers_table = f"{catalog_name}.{schema_name}.customers_bronze"
+
+(
+    customers_bronze_df.write
+    .format("delta")
+    .mode("overwrite")
+    .saveAsTable(customers_table)
+)
+
+print(f"Table written: {customers_table}")
+
+# COMMAND ----------
+
+spark.table(customers_table).show(5, truncate=False)
