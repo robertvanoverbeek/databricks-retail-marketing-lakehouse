@@ -137,3 +137,110 @@ print(f"Table written: {customers_table}")
 # COMMAND ----------
 
 spark.table(customers_table).show(5, truncate=False)
+
+# COMMAND ----------
+
+orders_file = source_directory / "orders.csv"
+
+destination = Path(volume_path) / "orders.csv"
+
+shutil.copy(orders_file, destination)
+
+print("Orders copied!")
+
+# COMMAND ----------
+
+orders_bronze_df = (
+    spark.read
+    .option("header", True)
+    .option("inferSchema", True)
+    .csv(str(destination))
+)
+orders_bronze_df.printSchema()
+
+# COMMAND ----------
+
+orders_bronze_df = (
+    orders_bronze_df
+    .select(
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price",
+        "discount",
+        "revenue",
+    )
+    .withColumn("_ingested_at", F.current_timestamp())
+)
+orders_bronze_df.printSchema()
+
+# COMMAND ----------
+
+orders_table = f"{catalog_name}.{schema_name}.orders_bronze"
+
+(
+    orders_bronze_df.write
+    .format("delta")
+    .mode("overwrite")
+    .saveAsTable(orders_table)
+)
+
+print(f"Table written: {orders_table}")
+
+# COMMAND ----------
+
+products_file = source_directory / "products.csv"
+
+destination = Path(volume_path) / "products.csv"
+
+shutil.copy(products_file, destination)
+
+print("Products copied!")
+
+# COMMAND ----------
+
+products_bronze_df = (
+    spark.read
+    .option("header", True)
+    .option("inferSchema", True)
+    .csv(str(destination))
+)
+products_bronze_df.printSchema()
+
+# COMMAND ----------
+
+products_bronze_df = (
+    products_bronze_df
+    .select(
+        "category",
+        "brand",
+        "product_name",
+        "unit_price",
+        "product_id",
+    )
+    .withColumn("_ingested_at", F.current_timestamp())
+)
+products_bronze_df.printSchema()
+
+# COMMAND ----------
+
+products_table = f"{catalog_name}.{schema_name}.products_bronze"
+
+(
+    products_bronze_df.write
+    .format("delta")
+    .mode("overwrite")
+    .saveAsTable(products_table)
+)
+
+print(f"Table written: {products_table}")
+
+# COMMAND ----------
+
+spark.table(customers_table).show(5)
+
+spark.table(products_table).show(5)
+
+spark.table(orders_table).show(5)
