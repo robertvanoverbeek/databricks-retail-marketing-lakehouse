@@ -1,7 +1,9 @@
-number_of_orders: 100000
+number_of_orders: 20
 
 input:
   customers: data/generated/customers.csv
   products: data/generated/products.csv
 
-output_file: data/generated/orders.csv
+
+output_directory: data/generated
+output_prefix: orders

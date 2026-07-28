@@ -100,9 +100,11 @@ def save_orders(
     Save orders to a CSV file.
     """
 
-    output_path = PROJECT_ROOT / config["output_file"]
+    output_directory = PROJECT_ROOT / config["output_directory"]
+    output_prefix = config["output_prefix"]
+    output_path = output_directory / f"{output_prefix}_001.csv"
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_directory.mkdir(parents=True, exist_ok=True)
 
     df = pd.DataFrame(orders)
 
@@ -118,6 +120,7 @@ def save_orders(
         "revenue",
     ]
 ]
+
 
     df.to_csv(output_path, index=False)
 
