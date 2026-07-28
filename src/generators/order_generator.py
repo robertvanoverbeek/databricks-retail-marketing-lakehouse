@@ -1,5 +1,7 @@
 from pathlib import Path
 from typing import Any
+from file_utils import get_initial_output_file
+
 import random
 
 import pandas as pd
@@ -102,9 +104,13 @@ def save_orders(
 
     output_directory = PROJECT_ROOT / config["output_directory"]
     output_prefix = config["output_prefix"]
-    output_path = output_directory / f"{output_prefix}_001.csv"
 
     output_directory.mkdir(parents=True, exist_ok=True)
+
+    output_path = get_initial_output_file(
+    output_directory,
+    output_prefix,
+    )
 
     df = pd.DataFrame(orders)
 
