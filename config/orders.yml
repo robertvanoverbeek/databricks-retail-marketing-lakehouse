@@ -1,7 +1,10 @@
-number_of_orders: 100000
+initial_number_of_orders: 200
+batch_number_of_orders: 200
 
 input:
   customers: data/generated/customers.csv
   products: data/generated/products.csv
 
-output_file: data/generated/orders.csv
+
+output_directory: data/generated
+output_prefix: orders
