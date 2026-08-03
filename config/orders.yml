@@ -1,4 +1,4 @@
-initial_number_of_orders: 200
+initial_number_of_orders: 10000
 batch_number_of_orders: 200
 
 input:
