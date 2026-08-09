@@ -34,21 +34,21 @@ for order_file in order_files:
 # COMMAND ----------
 
 # DBTITLE 1,pyspark to read multiple files at once
-orders_source = f"{volume_path}/orders_*.csv"
+# orders_source = f"{volume_path}/orders_*.csv"
 
 # let op dit leest dus alle bestanden ineens in
 
-orders_bronze_df = (
-    spark.read
-    .option("header", True)
-    .option("inferSchema", True)
-    .csv(orders_source)
-)
+# orders_bronze_df = (
+#     spark.read
+#     .option("header", True)
+#     .option("inferSchema", True)
+#     .csv(orders_source)
+# )
 
-print(f"Number of orders: {orders_bronze_df.count()}")
+# print(f"Number of orders: {orders_bronze_df.count()}")
 
-orders_bronze_df.show(5)
-orders_bronze_df.printSchema()
+# orders_bronze_df.show(5)
+# orders_bronze_df.printSchema()
 
 # COMMAND ----------
 
@@ -152,56 +152,6 @@ orders_table = f"{catalog_name}.{schema_name}.orders_bronze"
     .mode("append")
     .saveAsTable(orders_table)
 )
-
-# COMMAND ----------
-
-orders_bronze_df = (
-    spark.read
-    .option("header", True)
-    .option("inferSchema", True)
-    .csv(orders_source)
-    .select(
-        "*",
-        F.col("_metadata.file_name").alias("_source_file"),
-    )
-)
-orders_bronze_df.printSchema()
-
-# COMMAND ----------
-
-orders_bronze_df = (
-    orders_bronze_df
-    .select(
-        "order_id",
-        "customer_id",
-        "product_id",
-        "order_date",
-        "quantity",
-        "unit_price",
-        "discount",
-        "revenue",
-        "_source_file",
-    )
-    .withColumn("_ingested_at", F.current_timestamp())
-)
-
-# COMMAND ----------
-
-orders_bronze_df.printSchema()
-
-# COMMAND ----------
-
-orders_table = f"{catalog_name}.{schema_name}.orders_bronze"
-
-(
-    orders_bronze_df.write
-    .format("delta")
-    .mode("overwrite")
-    .option("overwriteSchema", "true")
-    .saveAsTable(orders_table)
-)
-
-print(f"Table written: {orders_table}")
 
 # COMMAND ----------
 
