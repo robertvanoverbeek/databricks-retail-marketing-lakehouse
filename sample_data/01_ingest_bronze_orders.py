@@ -3,10 +3,12 @@
 # [tool.databricks.environment]
 # environment_version = "5"
 # ///
+# DBTITLE 1,Import dependencies
 from pathlib import Path
 import shutil
 
 from pyspark.sql import functions as F
+from delta.tables import DeltaTable
 
 # COMMAND ----------
 
@@ -113,6 +115,7 @@ new_file_paths
 
 # COMMAND ----------
 
+# DBTITLE 1,Process new files with merge (idempotent)
 if new_file_paths:
     new_orders_df = (
         spark.read
@@ -139,11 +142,17 @@ if new_file_paths:
 
     print(f"New orders: {new_orders_df.count()}")
 
+    # Merge new orders into Bronze (idempotent)
+    target_orders = DeltaTable.forName(spark, orders_table)
+
     (
-        new_orders_df.write
-        .format("delta")
-        .mode("append")
-        .saveAsTable(orders_table)
+        target_orders.alias("target")
+        .merge(
+            new_orders_df.alias("source"),
+            "target.order_id = source.order_id",
+        )
+        .whenNotMatchedInsertAll()
+        .execute()
     )
 
     processed_new_files_df = (
@@ -154,11 +163,20 @@ if new_file_paths:
         )
     )
 
+    # Merge processed files into metadata table (idempotent)
+    target_files = DeltaTable.forName(
+        spark,
+        processed_order_files_table,
+    )
+
     (
-        processed_new_files_df.write
-        .format("delta")
-        .mode("append")
-        .saveAsTable(processed_order_files_table)
+        target_files.alias("target")
+        .merge(
+            processed_new_files_df.alias("source"),
+            "target.file_name = source.file_name",
+        )
+        .whenNotMatchedInsertAll()
+        .execute()
     )
 
     print(f"Processed files: {new_file_names}")
