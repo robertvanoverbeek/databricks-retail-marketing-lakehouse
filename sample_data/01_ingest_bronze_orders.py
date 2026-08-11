@@ -109,60 +109,59 @@ new_file_paths
 
 # COMMAND ----------
 
-new_orders_df = (
-    spark.read
-    .option("header", True)
-    .option("inferSchema", True)
-    .csv(new_file_paths)
-    .select(
-        "*",
-        F.col("_metadata.file_name").alias("_source_file"),
+if new_file_paths:
+    new_orders_df = (
+        spark.read
+        .option("header", True)
+        .option("inferSchema", True)
+        .csv(new_file_paths)
+        .select(
+            "*",
+            F.col("_metadata.file_name").alias("_source_file"),
+        )
+        .select(
+            "order_id",
+            "customer_id",
+            "product_id",
+            "order_date",
+            "quantity",
+            "unit_price",
+            "discount",
+            "revenue",
+            "_source_file",
+        )
+        .withColumn("_ingested_at", F.current_timestamp())
     )
-)
 
-print(f"New orders: {new_orders_df.count()}")
+    print(f"New orders: {new_orders_df.count()}")
 
-new_orders_df.select("_source_file").distinct().show()
-
-# COMMAND ----------
-
-new_orders_df = (
-    new_orders_df
-    .select(
-        "order_id",
-        "customer_id",
-        "product_id",
-        "order_date",
-        "quantity",
-        "unit_price",
-        "discount",
-        "revenue",
-        "_source_file",
+    (
+        new_orders_df.write
+        .format("delta")
+        .mode("append")
+        .saveAsTable(orders_table)
     )
-    .withColumn("_ingested_at", F.current_timestamp())
-)
+
+    processed_new_files_df = (
+        new_order_files_df
+        .withColumn(
+            "processed_at",
+            F.current_timestamp(),
+        )
+    )
+
+    (
+        processed_new_files_df.write
+        .format("delta")
+        .mode("append")
+        .saveAsTable(processed_order_files)
+    )
+
+    print(f"Processed files: {new_file_names}")
+
+else:
+    print("No new order files to process.")
 
 # COMMAND ----------
 
-orders_table = f"{catalog_name}.{schema_name}.orders_bronze"
-
-(
-    new_orders_df.write
-    .format("delta")
-    .mode("append")
-    .saveAsTable(orders_table)
-)
-
-# COMMAND ----------
-
-spark.table(orders_table).printSchema()
-
-# COMMAND ----------
-
-(
-    spark.table(orders_table)
-    .groupBy("_source_file")
-    .count()
-    .orderBy("_source_file")
-    .show(truncate=False)
-)
+processed_order_files_df.show()
