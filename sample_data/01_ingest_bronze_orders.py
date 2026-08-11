@@ -13,17 +13,21 @@ from pyspark.sql import functions as F
 current_directory = Path.cwd()
 project_root = current_directory.parent
 source_directory = project_root / "data" / "generated"
+
 volume_path = Path("/Volumes/workspace/retail/raw_files")
+
 catalog_name = "workspace"
 schema_name = "retail"
+
+orders_table = f"{catalog_name}.{schema_name}.orders_bronze"
+processed_order_files_table = (
+    f"{catalog_name}.{schema_name}.processed_order_files"
+)
 
 # COMMAND ----------
 
 # DBTITLE 1,copy the files to catalog
-order_files = [
-    order_file
-    for order_file in source_directory.glob("orders_*.csv")
-]
+order_files = list(source_directory.glob("orders_*.csv"))
 
 for order_file in order_files:
     destination = volume_path / order_file.name
@@ -53,7 +57,7 @@ for order_file in order_files:
 # COMMAND ----------
 
 processed_order_files = f"{catalog_name}.{schema_name}.processed_order_files"
-processed_order_files_df = spark.table(processed_order_files)
+processed_order_files_df = spark.table(processed_order_files_table)
 processed_order_files_df.printSchema()
 processed_order_files_df.show()
 
@@ -154,7 +158,7 @@ if new_file_paths:
         processed_new_files_df.write
         .format("delta")
         .mode("append")
-        .saveAsTable(processed_order_files)
+        .saveAsTable(processed_order_files_table)
     )
 
     print(f"Processed files: {new_file_names}")
@@ -163,5 +167,7 @@ else:
     print("No new order files to process.")
 
 # COMMAND ----------
+
+processed_order_files_df = spark.table(processed_order_files_table)
 
 processed_order_files_df.show()
