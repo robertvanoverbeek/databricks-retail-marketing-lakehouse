@@ -35,7 +35,7 @@ For a detailed description of the project, architecture, and design decisions, s
 - Synthetic retail data generation
 - Bronze / Silver / Gold Lakehouse architecture
 - Incremental file ingestion
-- Idempotent Delta Lake MERGE operations
+- Idempotent Delta Lake MERGE opKerations
 - Data quality validation
 - Unity Catalog Volumes
 - Metadata-driven processing
@@ -45,7 +45,7 @@ For a detailed description of the project, architecture, and design decisions, s
 
 ## Architecture
 
-*(Architecture diagram to be added.)*
+![NovaRetail Architecture Overview](images/Architecture-overview.png)
 
 ---
 

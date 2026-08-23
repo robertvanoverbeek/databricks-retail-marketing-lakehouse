@@ -157,4 +157,4 @@ src/
         Synthetic data generators
 
 tests/
-    for development
+    Development and testing utilities
