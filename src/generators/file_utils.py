@@ -1,6 +1,4 @@
 from pathlib import Path
-
-from traitlets import Int
 import csv
 
 
